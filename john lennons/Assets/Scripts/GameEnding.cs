@@ -42,7 +42,8 @@ public class GameEnding : MonoBehaviour
         {
             EndLevel(exitBackgroundImageCanvasGroup, false);
         }
-        else if (m_IsPlayerCaught)
+
+         else if (m_IsPlayerCaught)
         {
             EndLevel(caughtBackgroundImageCanvasGroup, true);
         }
